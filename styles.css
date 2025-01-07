@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+body{
+    background-color: rgb(228, 230, 230);
+}
+.background_image{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%,  rgb(228, 230, 230)), 
+    url('./asset/bci1.jpg');
+    background-size: cover;
+    width: 100vw;
+    height: 600px;
+    display: flex;
+    color: white;
+    font-size: 30px;
+    justify-content: space-between;
+}
+.navigation_buttons{
+    position: relative;
+    top: 150px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 20px;
+    border: 1px solid white;
+    height: 60px;
+    padding-right: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+#top_container{
+    margin-top: -20%;
+}
+.shop_cards{
+    height: 385px;
+    width: 342px;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.shop_cards h3{
+    padding-left: 20px;
+}
+.card_contianer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    row-gap: 30px;
+    justify-content: center;
+    padding-top: 20px;
+}
+.product_type{
+    height: 115px;
+    width: 143px;
+}
+.product_type img{
+   width: 100%;
+    cursor: pointer;
+}
+.product_type p{
+    cursor: pointer;
+    font-size: smaller;
+    font-weight: light;
+}
+.see_more{
+    padding-top: 20px;
+    padding-left: 20px;
+    justify-self: end;
+}
+.item_horizontal_slider{
+    background-color: white;
+    margin: 30px 20px 0px 20px;
+    padding-left: 20px;
+}
+.item_horizontal_slider h3{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.item_array{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding-top: 30px;
+    height: 220px;
+}
+.item_array .item img{
+    height: 200px;
+    padding-right: 20px;
+}
+#horizontal-slider-2 .item_array{
+    gap: 40px;
+    padding-left: 20px;
+}
+#mid_container{
+    display: flex;
+    font-size: small;
+}
+#mid_container .shop_cards p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#mid_container .card_image{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    max-width: 302px;
+    height: 130px;
+    align-self: center;
+}
+#mid_container .price{
+    font-size: large;
+}
+#mid_container .sub_image_container{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding-top: 20px;
+}
+.sub_item_image{
+    width: 65px;
+    max-height: 65px;
+    border: 1px solid black;
+    border-radius: 20%;
+}
+.footer{
+    width: 100vw;
+    height: 200px;
+    background-color: white;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 40px;
+    line-height: 35px;
+}
+.footer .services  ul{
+    list-style-type: none;
+}
+.sign_in h3{
+    padding-top: 30px;
+}
+.sign_in_button{
+    background-color: rgb(250, 217, 130);
+    border-radius: 2%;
+    padding: 5px 100px;
+    border: none;
+}
+.login_para{
+    font-size: 10px;
+    padding-bottom: 30px;
+}
+.services{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    background-color: rgb(34, 47, 60);
+    color: white;
+    padding-bottom: 100px;
+}
+.brand_details{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    background-color: rgb(34, 47, 60);
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.brand_details .box{
+    width: 89px;
+    height: 19px;
+    padding: 6px 18px 6px 8px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+}
+.brand_details img{
+    width: 116px;
+    height: 43px;
+}
+.brand_details p{
+    display: inline-block;
+}
+.services_offered{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgb(20, 26, 33);
+    color: white;
+    cursor: pointer;
+}
+.services_offered .row{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.services_offered .row .service_item{
+    width: 200px;
+}
+.services_offered .row .service_item p{
+    font-weight: lighter;
+    font-size: 13px;
+    line-height: 18px;
+}
